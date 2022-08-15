@@ -6,66 +6,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt&family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
-
-    <style>
-        body{
-            background-color: #91C4F2;
-            color: #070707;
-        }
-        #Descrição{
-            font-family:'Prompt';
-            font-style: italic;
-        }
-        #Nome{
-            font-family:'Prompt&family';
-        }
-        .links{
-            text-decoration: none;
-            background-color:#62350D;
-            padding: 10px 20px;
-            color: #91C4F2;
-            border-radius: 4px;
-         }
-         .elementos-lista{
-            line-height: 40px;
-            
-         }
-
-         .destaque{
-            color: aliceblue;
-         }
-        
-         
-    </style>
+    <link rel="stylesheet" href="./style.css" />
+    
 </head>
 <body>
-    <h1 id="Nome">Bruno Fournier Schmidtke Rei Baptista</h1>
-    <img
-    id="Foto" 
-    src="./eu.jpg" 
-    alt="foto sorrindo em frente ao mar" 
-    width="300px">
-    <h3>Descrição:</h3>
-    <p id="Descrição"><span class="destaque">Brasileiro</span>, nascido e <span class="destaque">residente do Rio de Janeiro</span>, no começo do meu aprendizado como um desenvolverdor web pela <span class="destaque">Trybe</span>!
-    <br>
-    <br>
-    <br>
+    <div id="Apresentação-div">
+
+        <div id="Nome-div">
+            <h1 id="Nome">Bruno Fournier Schmidtke Rei Baptista</h1>
+        </div>
+        
+        <div id="Foto-div" class="foto-descrição-div">
+            <img
+            id="Foto" 
+            src="./eu.jpg" 
+            alt="foto sorrindo em frente ao mar" 
+            width="450px">
+        </div>
+
+        <div id="Descrição-div" class="foto-descrição-div" >
+            <h3>Descrição:</h3>
+            <p id="Descrição" ><span class="destaque">Brasileiro</span>, nascido e <span class="destaque">residente do Rio de Janeiro</span>, no começo do meu aprendizado como um desenvolverdor web pela <span class="destaque">Trybe</span>!
+        </div>
+    </div>
+
     <h3>Skills:</h3>
     <ul id="Skills">
         <li>Lealdade</li>
         <li>Comprometimento</li>
         <li><strong>Adaptação</strong></li>
     </ul>
-    <br>
-    <br>
-    <br>
-    <br>
      <a class="links" id="Blog" href="https://blog.patrickrothfuss.com/" 
     target="_blank">Blog do escritor favorito</a>
-    <br>
-    <br>
-    <br>
-    <br>
     <h3>Índice do portfólio:</h3>
     <ul>
         <li class="elementos-lista"><a class="links" href="#Nome">Nome</a></li>

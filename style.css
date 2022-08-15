@@ -1,0 +1,68 @@
+/* div{
+    border: 2px solid green;
+} */
+
+#apresentação{}
+ #Nome-div{
+    text-align: center;
+    
+ }
+ #Foto-div{
+    margin: 30px 0px 0px 80px;
+    background-color: #070707;
+    padding: 10px;
+ }
+ #Descrição-div{}
+
+ .foto-descrição-div{
+    
+    display: inline-block;
+    vertical-align: middle;
+ }
+ 
+
+
+
+ ul li:nth-child(odd){
+    text-decoration:underline;
+ }
+
+
+
+
+
+
+
+
+ body{
+    background-color: #91C4F2;
+    color: #070707;
+}
+#Descrição{
+    font-family:'Prompt';
+    font-style: italic;
+}
+#Nome{
+    font-family:'Prompt&family';
+}
+.links{
+    text-decoration: none;
+    background-color:aliceblue;
+    padding: 10px 20px;
+    color: #91C4F2;
+    border-radius: 4px;
+ }
+ .elementos-lista{
+    line-height: 40px;
+    
+ }
+
+ .destaque{
+    color: aliceblue;
+ }
+ /* *{
+    margin: 0;
+    padding: 0;
+ } */
+ 
+ 
