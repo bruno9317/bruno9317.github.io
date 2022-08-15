@@ -1,23 +1,30 @@
-div{
+/* div{
     border: 2px solid green;
-}
+} */
 
 #apresentação{}
  #Nome-div{
     text-align: center;
+    
  }
  #Foto-div{
     margin: 30px 0px 0px 80px;
     background-color: #070707;
     padding: 10px;
  }
- #Descrição-div{
-    margin: 0px 0px 0px 40px;
- }
+ #Descrição-div{}
+
  .foto-descrição-div{
     
     display: inline-block;
     vertical-align: middle;
+ }
+ 
+
+
+
+ ul li:nth-child(odd){
+    text-decoration:underline;
  }
 
 
@@ -53,9 +60,9 @@ div{
  .destaque{
     color: aliceblue;
  }
- *{
+ /* *{
     margin: 0;
     padding: 0;
- }
+ } */
  
  
